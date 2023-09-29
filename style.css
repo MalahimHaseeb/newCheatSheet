@@ -50,4 +50,9 @@ nav{
     .container {
     width: 75vw;
 }
+
+@media screen and (max-width:353px) {
+    nav{
+        height: 112px;
+}
 }
