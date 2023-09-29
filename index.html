@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Potta+One&family=Roboto:wght@100&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="prism.css">
+    <script src="prism.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>HTML Cheatsheet by CodeWithHarry</title>
+</head>
+
+<body>
+    <nav>
+        <span class="logo"><img src="copy.png" alt=""></span>
+        <div class="content center">
+            This HTML Cheatsheet is For You!
+        </div>
+    </nav>
+    <div class="container">
+        <ul>
+            <li><b>HTML Boilerplate:</b> This is the basic html boilerplate code
+                <pre class="language-html"><code>&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+    &lt;title&gt;Document&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    
+&lt;/body&gt;
+&lt;/html&gt; </code></pre>
+            </li>
+            
+        </ul>
+        <ul>
+            <li><b>Heading tag</b> There are six headings available in HTML, &lt;h1> is the largest among all, and &lt;h6> is the smallest.
+<pre class="language-html"><code>&lt;h2&gt; This is h2 &lt;/h2&gt;
+&lt;h3&gt; This is h3 &lt;/h3&gt;
+&lt;h4&gt; This is h4 &lt;/h4&gt;
+&lt;h5&gt; This is h5 &lt;/h5&gt;
+&lt;h6&gt; This is h6 &lt;/h6&gt;
+&lt;h1&gt; This is h1 &lt;/h1&gt;</code></pre>
+            </li>   
+        </ul>
+        <ul>
+            <li><b>Div tag</b> The div tag or division tag is used to make blocks or divisions in the document.
+<pre class="language-html"><code>&lt;div&gt; This is div block &lt;/div&gt;;</code></pre>
+            </li>   
+        </ul>
+        <ul>
+            <li><b>Span tag</b> The span is a container for inline content
+<pre class="language-html"><code>&lt;span&gt; This is span block &lt;/div&gt;;</code></pre>
+            </li>   
+        </ul>
+        <ul>
+            <li><b>p tag</b> The p tag is used to create a paragraph in HTML
+<pre class="language-html"><code>&lt;p&gt; This is a paragraph &lt;p&gt;;</code></pre>
+            </li>   
+        </ul>
+        <ul>
+            <li><b>pre tag</b> The pre tag represents pre-formatted text
+<pre class="language-html"><code>&lt;pre&gt; This is span block &lt;/pre&gt;;</code></pre>
+            </li>   
+        </ul>
+        <ul>
+            <li><b>code tag</b> The code tag is used to represent source codes in HTML
+<pre class="language-html"><code>&lt;code&gt; This is span block &lt;/code&gt;;</code></pre>
+            </li>   
+        </ul>
+        <ul>
+            <h1>Text Formatting</h1> Text formatting tags are used to format text or data in HTML documents. You can do certain things like creating italic, buld, and strong text to make your document look more attractive and understandable.   
+        </ul>
+            <ul>
+                <li><b>&lt;b&gt; tag:</b> 
+    <pre class="language-html"><code>&lt;b&gt; I am buld tag &lt;/b&gt;;</code></pre>
+                </li>   
+            </ul>
+            <ul>
+                <li><b>&lt;strong&gt; tag:</b> 
+    <pre class="language-html"><code>&lt;strong&gt; I'm important text &lt;/strong&gt;;</code></pre>
+                </li>   
+            </ul>
+            <ul>
+                <li><b>&lt;i&gt; tag:</b> 
+    <pre class="language-html"><code>&lt;i&gt; I'm italic text &lt;/i&gt;;</code></pre>
+                </li>   
+            </ul>
+            <ul>
+                <li><b>&lt;em&gt; tag:</b> 
+    <pre class="language-html"><code>&lt;em&gt; Emphasized text &lt;/em&gt;;</code></pre>
+                </li>   
+            </ul>
+            <ul>
+                <li><b>&lt;sub&gt; tag:</b> 
+    <pre class="language-html"><code>&lt;sub&gt; Subscript &lt;/sub&gt;;</code></pre>
+                </li>   
+            </ul>
+            <ul>
+                <li><b>&lt;sup&gt; tag:</b> 
+    <pre class="language-html"><code>&lt;sup&gt; Superscript &lt;/sup&gt;;</code></pre>
+                </li>   
+            </ul>
+            <ul>
+                <h1>Lists</h1> Lists can be either numerical, alphabetic, bullet, or other symbols. You can specify list type and list items in HTML for a clean document.  
+            </ul>
+            <ul>
+                <li><b>&lt;ol&gt; tag:</b> 
+    <pre class="language-html"><code>&lt;ol&gt; 
+        &lt;li&gt;Data 1&lt;/li&gt;
+        &lt;li&gt;Data 2&lt;/li&gt;
+        &lt;li&gt;Data 3&lt;/li&gt;
+ &lt;/ol&gt;;</code></pre>
+                </li>   
+            </ul>
+            <ul>
+                <li><b>&lt;ul&gt; tag:</b> 
+    <pre class="language-html"><code>&lt;ul&gt; 
+        &lt;li&gt;Data 1&lt;/li&gt;
+        &lt;li&gt;Data 2&lt;/li&gt;
+        &lt;li&gt;Data 3&lt;/li&gt;
+ &lt;/ul&gt;;</code></pre>
+                </li>   
+            </ul>
+            <ul>
+                <li><b>Table</b> A table is a collection of rows and columns. It is used to represent data in tabular form.
+    <pre class="language-html"><code>&lt;table>
+        &lt;caption>Demo Table&lt;/caption>
+        &lt;thead>
+            &lt;tr>
+                <th>Column1&lt;/th>
+                &lt;th colspan="2">Column2&lt;/th>
+            &lt;/tr>
+        &lt;/thead>
+        &lt;tbody>
+            &lt;tr>
+                &lt;td>Data1&lt;/td>
+                &lt;td>Data2&lt;/td>
+                &lt;td>Data2&lt;/td>
+            &lt;/tr>
+            &lt;tr>
+                &lt;td>Data1&lt;/td>
+                &lt;td>Data2&lt;/td>
+                &lt;td>Data2&lt;/td>
+            &lt;/tr>
+        &lt;/tbody>
+        &lt;tfoot>
+            &lt;tr>
+                &lt;td>&nbsp;&lt;/td>
+                &lt;td>Data&lt;/td>
+                &lt;td>Data&lt;/td>
+            &lt;/tr>
+        &lt;/tfoot>
+    &lt;/table>
+       </li>
+            </ul>
+            <div class="new">
+            <ul>
+                <li><b>a tag:</b> or anchor tag defines a hyperlink. When clicked, it takes you to some other page</li>
+    <pre class="language-html"><code>&lt;a href="https://www.codewithharry.com/">Visit CodeWithHarry.com!&lt;/a></code></pre>
+                
+            </ul>
+            <ul>
+            <h1>Form </h1> The form is used to collect the user's input, generally, the user's data is sent to the server for further processing.  
+                <pre class="language-html"><code>&lt;form action="/action.php" method="post">
+  &lt;textarea cols="20" name="comments" rows="5">Comment&lt;/textarea><br />
+  &lt;label><input name="terms" type="checkbox" value="tandc" />Accept terms&lt;/label> &lt;br />
+  &lt;input type="submit" value="Submit" />
+&lt;/form></code></pre>
+            </ul>
+            <ul>
+                <li><b>&lt;Input tag&gt;:</b>
+    <pre class="language-html"><code>&lt;input type="text" name="username" placeholder="Enter Username"></code></pre>
+                </li>
+            </ul>
+            <ul>
+                <li><b>&lt;Password Input&gt;:</b>
+    <pre class="language-html"><code>&lt;input type="password" name="password" placeholder="Enter Password"></code></pre>
+                </li>
+            </ul>
+            <ul>
+                <li><b>Checkbox:</b>
+    <pre class="language-html"><code>&lt;input type="checkbox" name="agree" value="yes">I agree</code></pre>
+                </li>
+            </ul>
+            <ul>
+                <li><b>Radio Button:</b>
+    <pre class="language-html"><code>&lt;input type="radio" name="gender" value="male"> Male&lt;br>&lt;input type="radio" name="gender" value="female"> female</code></pre>
+                </li>
+            </ul>
+            <ul>
+                <li><b>Submit button</b>
+    <pre class="language-html"><code>&lt;input type="submit" value="Submit"></code></pre>
+                </li>
+            </ul>
+            <ul>
+                <li><b>Button</b>
+    <pre class="language-html"><code>&lt;button type="button" >Click me&lt;/button></code></pre>
+                </li>
+            </ul>
+            <ul>
+                <li><b>Textarea</b>
+    <pre class="language-html"><code>&lt;textarea name="comments" rows="4" cols="50">Enter comments here&lt;/textarea> </code></pre>
+                </li>
+            </ul>
+            <ul>
+                <li><b>File Input</b>
+    <pre class="language-html"><code>&lt;input type="file" name="fileupload"></code></pre>
+                </li>
+            </ul>
+            <ul>
+                <li><b>Range Input</b>
+    <pre class="language-html"><code>&lt;input type="range" name="volume" min="0" max="100"></code></pre>
+                </li>
+            </ul>
+            <ul>
+                <li><b>Number Input</b>
+    <pre class="language-html"><code>&lt;input type="number" name="quantity" min="1" max="10"></code></pre>
+                </li>
+            </ul>
+            <ul>
+                <li><b>Email Input</b>
+    <pre class="language-html"><code>&lt;input type="email" name="email" placeholder="Enter Email"></code></pre>
+                </li>
+            </ul>
+            <ul>
+                <li><b>Search Input</b>
+    <pre class="language-html"><code>&lt;input type="search" name="query" placeholder="Search"></code></pre>
+                </li>
+            </ul>
+            <ul>
+                <li><b>URL Input</b>
+    <pre class="language-html"><code>&lt;input type="url" name="website" placeholder="Enter URL"></code></pre>
+                </li>
+            </ul>
+            <ul>
+                <li><b>Date Input</b>
+    <pre class="language-html"><code>&lt;input type="date" name="birthdate"></code></pre>
+                </li>
+            </ul>
+        </div>
+               
+    </div>
+</body>
+
+</html>
